@@ -18,4 +18,17 @@
   <attr path="/api/package[@name='com.chad.library.adapter.base']/class[@name='BaseQuickAdapter']/method[@name='onCreateViewHolder']" name="return">android.support.v7.widget.RecyclerView.ViewHolder</attr>
   <attr path="/api/package[@name='com.chad.library.adapter.base']/class[@name='BaseQuickAdapter']/method[@name='onViewAttachedToWindow']/parameter[1]" name="type">android.support.v7.widget.RecyclerView.ViewHolder</attr>
   <attr path="/api/package[@name='com.chad.library.adapter.base']/class[@name='BaseQuickAdapter']/method[@name='onBindViewHolder']/parameter[1]" name="type">android.support.v7.widget.RecyclerView.ViewHolder</attr>
+  <attr path="/api/package[@name='com.chad.library.adapter.base']/class[@name='BaseQuickAdapter']/method[@name='onCreateDefViewHolder']" name="return">com.chad.library.adapter.base.BaseViewHolder</attr>
+  <attr path="/api/package[@name='com.chad.library.adapter.base']/class[@name='BaseQuickAdapter']/method[@name='createBaseViewHolder']" name="return">com.chad.library.adapter.base.BaseViewHolder</attr>
+  <attr path="/api/package[@name='com.chad.library.adapter.base']/class[@name='BaseQuickAdapter']/method[@name='convert']/parameter[1]" name="type">com.chad.library.adapter.base.BaseViewHolder</attr>
+
+  <attr path="/api/package[@name='com.chad.library.adapter.base']/class[@name='BaseQuickAdapter']/field[@name='ALPHAIN']" name="name">AlphaIn</attr>
+  <attr path="/api/package[@name='com.chad.library.adapter.base']/class[@name='BaseQuickAdapter']/field[@name='SCALEIN']" name="name">ScaleIn</attr>
+  <attr path="/api/package[@name='com.chad.library.adapter.base']/class[@name='BaseQuickAdapter']/field[@name='SLIDEIN_BOTTOM']" name="name">SlideInBottom</attr>
+  <attr path="/api/package[@name='com.chad.library.adapter.base']/class[@name='BaseQuickAdapter']/field[@name='SLIDEIN_LEFT']" name="name">SlideInLeft</attr>
+  <attr path="/api/package[@name='com.chad.library.adapter.base']/class[@name='BaseQuickAdapter']/field[@name='SLIDEIN_RIGHT']" name="name">SlideInRight</attr>
+
+  <attr path="/api/package[@name='com.chad.library.adapter.base']/interface[@name='BaseQuickAdapter.OnItemChildClickListener']/method[@name='onItemChildClick']/parameter[@name='p0']" name="name">adapter</attr>
+  <attr path="/api/package[@name='com.chad.library.adapter.base']/interface[@name='BaseQuickAdapter.OnItemChildClickListener']/method[@name='onItemChildClick']/parameter[@name='p1']" name="name">view</attr>
+  <attr path="/api/package[@name='com.chad.library.adapter.base']/interface[@name='BaseQuickAdapter.OnItemChildClickListener']/method[@name='onItemChildClick']/parameter[@name='p2']" name="name">position</attr>
 </metadata>

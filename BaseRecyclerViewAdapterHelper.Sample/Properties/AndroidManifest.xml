@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="BaseRecyclerViewAdapterHelper.Sample" android:installLocation="auto" android:versionCode="5" android:versionName="2.1">
+	<application />
+	<uses-sdk android:minSdkVersion="14" />
+</manifest>

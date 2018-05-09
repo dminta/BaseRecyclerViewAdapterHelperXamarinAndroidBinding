@@ -5,6 +5,14 @@ VisualStudioVersion = 15.0.27428.2043
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaseRecyclerViewAdapterHelper", "BaseRecyclerViewAdapterHelper\BaseRecyclerViewAdapterHelper.csproj", "{9B206109-D6E9-40D8-9E10-1BA14560857E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaseRecyclerViewAdapterHelper.Sample", "BaseRecyclerViewAdapterHelper.Sample\BaseRecyclerViewAdapterHelper.Sample.csproj", "{1561CDA6-9EA1-4B1E-B98D-EB6E43CADADC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SampleDependencies", "SampleDependencies", "{1245BE4B-E002-4272-84E3-5487ADC733B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logger", "BaseRecyclerViewAdapterHelper.Sample\AndroidBindings\Logger\Logger.csproj", "{BC55E4CB-32C6-47AC-B335-AF606C42E2A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaterialSpinner", "BaseRecyclerViewAdapterHelper.Sample\AndroidBindings\MaterialSpinner\MaterialSpinner.csproj", "{EA4C1645-4013-447B-98C5-512BCD8012CA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +23,27 @@ Global
 		{9B206109-D6E9-40D8-9E10-1BA14560857E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9B206109-D6E9-40D8-9E10-1BA14560857E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9B206109-D6E9-40D8-9E10-1BA14560857E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1561CDA6-9EA1-4B1E-B98D-EB6E43CADADC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1561CDA6-9EA1-4B1E-B98D-EB6E43CADADC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1561CDA6-9EA1-4B1E-B98D-EB6E43CADADC}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{1561CDA6-9EA1-4B1E-B98D-EB6E43CADADC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1561CDA6-9EA1-4B1E-B98D-EB6E43CADADC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1561CDA6-9EA1-4B1E-B98D-EB6E43CADADC}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{BC55E4CB-32C6-47AC-B335-AF606C42E2A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC55E4CB-32C6-47AC-B335-AF606C42E2A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC55E4CB-32C6-47AC-B335-AF606C42E2A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC55E4CB-32C6-47AC-B335-AF606C42E2A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA4C1645-4013-447B-98C5-512BCD8012CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA4C1645-4013-447B-98C5-512BCD8012CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA4C1645-4013-447B-98C5-512BCD8012CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA4C1645-4013-447B-98C5-512BCD8012CA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BC55E4CB-32C6-47AC-B335-AF606C42E2A1} = {1245BE4B-E002-4272-84E3-5487ADC733B5}
+		{EA4C1645-4013-447B-98C5-512BCD8012CA} = {1245BE4B-E002-4272-84E3-5487ADC733B5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {07FE27F4-3809-4DB2-A04D-01BC27BC33C4}
