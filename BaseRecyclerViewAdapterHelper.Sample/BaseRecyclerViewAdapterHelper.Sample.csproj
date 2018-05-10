@@ -120,6 +120,7 @@
     <Compile Include="Adapter\HeaderAndFooterAdapter.cs" />
     <Compile Include="Adapter\HomeAdapter.cs" />
     <Compile Include="Adapter\MultipleItemQuickAdapter.cs" />
+    <Compile Include="Adapter\PullToRefreshAdapter.cs" />
     <Compile Include="AnimationUseActivity.cs" />
     <Compile Include="Animation\CustomAnimation.cs" />
     <Compile Include="Base\BaseActivity.cs" />
@@ -129,8 +130,10 @@
     <Compile Include="Entity\Status.cs" />
     <Compile Include="HeaderAndFooterUseActivity.cs" />
     <Compile Include="HomeActivity.cs" />
+    <Compile Include="LoadMore\CustomLoadMoreView.cs" />
     <Compile Include="MultipleItemUseActivity.cs" />
     <Compile Include="MyApplication.cs" />
+    <Compile Include="PullToRefreshUseActivity.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Util\ClickableMovementMethod.cs" />

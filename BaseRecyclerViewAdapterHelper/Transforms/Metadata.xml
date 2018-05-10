@@ -35,4 +35,8 @@
   <attr path="/api/package[@name='com.chad.library.adapter.base']/interface[@name='BaseQuickAdapter.OnItemClickListener']/method[@name='onItemClick']/parameter[@name='p0']" name="name">adapter</attr>
   <attr path="/api/package[@name='com.chad.library.adapter.base']/interface[@name='BaseQuickAdapter.OnItemClickListener']/method[@name='onItemClick']/parameter[@name='p1']" name="name">view</attr>
   <attr path="/api/package[@name='com.chad.library.adapter.base']/interface[@name='BaseQuickAdapter.OnItemClickListener']/method[@name='onItemClick']/parameter[@name='p2']" name="name">position</attr>
+
+  <attr path="/api/package[@name='com.chad.library.adapter.base.listener']/class[@name='OnItemClickListener']/method[@name='onSimpleItemClick']/parameter[@name='p0']" name="name">adapter</attr>
+  <attr path="/api/package[@name='com.chad.library.adapter.base.listener']/class[@name='OnItemClickListener']/method[@name='onSimpleItemClick']/parameter[@name='p0']" name="name">view</attr>
+  <attr path="/api/package[@name='com.chad.library.adapter.base.listener']/class[@name='OnItemClickListener']/method[@name='onSimpleItemClick']/parameter[@name='p0']" name="name">position</attr>
 </metadata>
