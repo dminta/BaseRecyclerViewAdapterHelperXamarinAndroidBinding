@@ -117,6 +117,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Adapter\AnimationAdapter.cs" />
+    <Compile Include="Adapter\HeaderAndFooterAdapter.cs" />
     <Compile Include="Adapter\HomeAdapter.cs" />
     <Compile Include="Adapter\MultipleItemQuickAdapter.cs" />
     <Compile Include="AnimationUseActivity.cs" />
@@ -126,6 +127,7 @@
     <Compile Include="Entity\HomeItem.cs" />
     <Compile Include="Entity\MultipleItem.cs" />
     <Compile Include="Entity\Status.cs" />
+    <Compile Include="HeaderAndFooterUseActivity.cs" />
     <Compile Include="HomeActivity.cs" />
     <Compile Include="MultipleItemUseActivity.cs" />
     <Compile Include="MyApplication.cs" />
