@@ -121,13 +121,16 @@
     <Compile Include="Adapter\HomeAdapter.cs" />
     <Compile Include="Adapter\MultipleItemQuickAdapter.cs" />
     <Compile Include="Adapter\PullToRefreshAdapter.cs" />
+    <Compile Include="Adapter\SectionAdapter.cs" />
     <Compile Include="AnimationUseActivity.cs" />
     <Compile Include="Animation\CustomAnimation.cs" />
     <Compile Include="Base\BaseActivity.cs" />
     <Compile Include="Data\DataServer.cs" />
     <Compile Include="Entity\HomeItem.cs" />
     <Compile Include="Entity\MultipleItem.cs" />
+    <Compile Include="Entity\MySection.cs" />
     <Compile Include="Entity\Status.cs" />
+    <Compile Include="Entity\Video.cs" />
     <Compile Include="HeaderAndFooterUseActivity.cs" />
     <Compile Include="HomeActivity.cs" />
     <Compile Include="LoadMore\CustomLoadMoreView.cs" />
@@ -136,6 +139,7 @@
     <Compile Include="PullToRefreshUseActivity.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SectionUseActivity.cs" />
     <Compile Include="Util\ClickableMovementMethod.cs" />
     <Compile Include="Util\SpannableStringUtils.cs" />
     <Compile Include="Util\ToastUtils.cs" />

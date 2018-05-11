@@ -25,6 +25,32 @@ namespace BaseRecyclerViewAdapterHelper.Sample.Data
             }
             return list;
         }
+        
+        public static List<MySection> GetSampleData()
+        {
+            var list = new List<MySection>
+            {
+                new MySection(true, "Section 1", true),
+                new MySection(new Video(HttpsAvatars1GitHubUserContentComLink, CymChad)),
+                new MySection(new Video(HttpsAvatars1GitHubUserContentComLink, CymChad)),
+                new MySection(new Video(HttpsAvatars1GitHubUserContentComLink, CymChad)),
+                new MySection(new Video(HttpsAvatars1GitHubUserContentComLink, CymChad)),
+                new MySection(true, "Section 2", false),
+                new MySection(new Video(HttpsAvatars1GitHubUserContentComLink, CymChad)),
+                new MySection(new Video(HttpsAvatars1GitHubUserContentComLink, CymChad)),
+                new MySection(new Video(HttpsAvatars1GitHubUserContentComLink, CymChad)),
+                new MySection(true, "Section 3", false),
+                new MySection(new Video(HttpsAvatars1GitHubUserContentComLink, CymChad)),
+                new MySection(new Video(HttpsAvatars1GitHubUserContentComLink, CymChad)),
+                new MySection(true, "Section 4", false),
+                new MySection(new Video(HttpsAvatars1GitHubUserContentComLink, CymChad)),
+                new MySection(new Video(HttpsAvatars1GitHubUserContentComLink, CymChad)),
+                new MySection(true, "Section 5", false),
+                new MySection(new Video(HttpsAvatars1GitHubUserContentComLink, CymChad)),
+                new MySection(new Video(HttpsAvatars1GitHubUserContentComLink, CymChad))
+            };
+            return list;
+        }
 
         public static List<MultipleItem> GetMultipleItemData()
         {
