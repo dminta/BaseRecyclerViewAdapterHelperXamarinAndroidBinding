@@ -1,6 +1,6 @@
 ﻿using Android.Views;
 using Android.Widget;
-using Chad.BaseRecyclerViewAdapterHelper.Adapter.Base;
+using CymChad.BaseRecyclerViewAdapterHelper.Adapter.Base;
 using Android.Text.Style;
 using Android.Text;
 using BaseRecyclerViewAdapterHelper.Sample.Util;

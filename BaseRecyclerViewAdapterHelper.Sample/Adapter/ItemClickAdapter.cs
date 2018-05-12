@@ -5,7 +5,7 @@ using Android.Views;
 using Android.Widget;
 using BaseRecyclerViewAdapterHelper.Sample.Entity;
 using BaseRecyclerViewAdapterHelper.Sample.Util;
-using Chad.BaseRecyclerViewAdapterHelper.Adapter.Base;
+using CymChad.BaseRecyclerViewAdapterHelper.Adapter.Base;
 using Com.Orhanobut.Logger;
 
 namespace BaseRecyclerViewAdapterHelper.Sample.Adapter

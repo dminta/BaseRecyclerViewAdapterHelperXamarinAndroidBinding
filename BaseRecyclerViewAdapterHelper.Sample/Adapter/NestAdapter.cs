@@ -4,7 +4,7 @@ using Android.Views;
 using Android.Widget;
 using BaseRecyclerViewAdapterHelper.Sample.Data;
 using BaseRecyclerViewAdapterHelper.Sample.Util;
-using Chad.BaseRecyclerViewAdapterHelper.Adapter.Base;
+using CymChad.BaseRecyclerViewAdapterHelper.Adapter.Base;
 
 namespace BaseRecyclerViewAdapterHelper.Sample.Adapter
 {

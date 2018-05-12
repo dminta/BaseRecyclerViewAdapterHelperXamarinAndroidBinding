@@ -1,4 +1,4 @@
-﻿using Chad.BaseRecyclerViewAdapterHelper.Adapter.Base.Entity;
+﻿using CymChad.BaseRecyclerViewAdapterHelper.Adapter.Base.Entity;
 
 namespace BaseRecyclerViewAdapterHelper.Sample.Entity
 {

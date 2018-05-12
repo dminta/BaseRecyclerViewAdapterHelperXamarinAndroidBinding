@@ -6,14 +6,14 @@
   This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
   <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
   -->
-  <attr path="/api/package[@name='com.chad.library.adapter.base']" name="managedName">Chad.BaseRecyclerViewAdapterHelper.Adapter.Base</attr>
-  <attr path="/api/package[@name='com.chad.library.adapter.base.animation']" name="managedName">Chad.BaseRecyclerViewAdapterHelper.Adapter.Base.Animation</attr>
-  <attr path="/api/package[@name='com.chad.library.adapter.base.callback']" name="managedName">Chad.BaseRecyclerViewAdapterHelper.Adapter.Base.Callback</attr>
-  <attr path="/api/package[@name='com.chad.library.adapter.base.entity']" name="managedName">Chad.BaseRecyclerViewAdapterHelper.Adapter.Base.Entity</attr>
-  <attr path="/api/package[@name='com.chad.library.adapter.base.listener']" name="managedName">Chad.BaseRecyclerViewAdapterHelper.Adapter.Base.Listener</attr>
-  <attr path="/api/package[@name='com.chad.library.adapter.base.loadmore']" name="managedName">Chad.BaseRecyclerViewAdapterHelper.Adapter.Base.LoadMore</attr>
-  <attr path="/api/package[@name='com.chad.library.adapter.base.util']" name="managedName">Chad.BaseRecyclerViewAdapterHelper.Adapter.Base.Util</attr>
-  <attr path="/api/package[@name='com.chad.library']" name="managedName">Chad.BaseRecyclerViewAdapterHelper</attr>
+  <attr path="/api/package[@name='com.chad.library.adapter.base']" name="managedName">CymChad.BaseRecyclerViewAdapterHelper.Adapter.Base</attr>
+  <attr path="/api/package[@name='com.chad.library.adapter.base.animation']" name="managedName">CymChad.BaseRecyclerViewAdapterHelper.Adapter.Base.Animation</attr>
+  <attr path="/api/package[@name='com.chad.library.adapter.base.callback']" name="managedName">CymChad.BaseRecyclerViewAdapterHelper.Adapter.Base.Callback</attr>
+  <attr path="/api/package[@name='com.chad.library.adapter.base.entity']" name="managedName">CymChad.BaseRecyclerViewAdapterHelper.Adapter.Base.Entity</attr>
+  <attr path="/api/package[@name='com.chad.library.adapter.base.listener']" name="managedName">CymChad.BaseRecyclerViewAdapterHelper.Adapter.Base.Listener</attr>
+  <attr path="/api/package[@name='com.chad.library.adapter.base.loadmore']" name="managedName">CymChad.BaseRecyclerViewAdapterHelper.Adapter.Base.LoadMore</attr>
+  <attr path="/api/package[@name='com.chad.library.adapter.base.util']" name="managedName">CymChad.BaseRecyclerViewAdapterHelper.Adapter.Base.Util</attr>
+  <attr path="/api/package[@name='com.chad.library']" name="managedName">CymChad.BaseRecyclerViewAdapterHelper</attr>
 
   <attr path="/api/package[@name='com.chad.library.adapter.base']/class[@name='BaseQuickAdapter']/method[@name='onCreateViewHolder' and count(parameter)=2 and parameter[1][@type='android.view.ViewGroup'] and parameter[2][@type='int']]" name="return">android.support.v7.widget.RecyclerView.ViewHolder</attr>
   <attr path="/api/package[@name='com.chad.library.adapter.base']/class[@name='BaseQuickAdapter']/method[@name='onViewAttachedToWindow' and count(parameter)=1]/parameter[1]" name="type">android.support.v7.widget.RecyclerView.ViewHolder</attr>

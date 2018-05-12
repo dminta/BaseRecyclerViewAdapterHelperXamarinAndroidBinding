@@ -14,7 +14,7 @@ using BaseRecyclerViewAdapterHelper.Sample.Adapter;
 using BaseRecyclerViewAdapterHelper.Sample.Base;
 using BaseRecyclerViewAdapterHelper.Sample.Data;
 using BaseRecyclerViewAdapterHelper.Sample.Entity;
-using Chad.BaseRecyclerViewAdapterHelper.Adapter.Base;
+using CymChad.BaseRecyclerViewAdapterHelper.Adapter.Base;
 
 namespace BaseRecyclerViewAdapterHelper.Sample
 {

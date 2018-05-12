@@ -10,8 +10,8 @@ using Android.Util;
 using BaseRecyclerViewAdapterHelper.Sample.Adapter;
 using BaseRecyclerViewAdapterHelper.Sample.Base;
 using BaseRecyclerViewAdapterHelper.Sample.Util;
-using Chad.BaseRecyclerViewAdapterHelper.Adapter.Base;
-using Chad.BaseRecyclerViewAdapterHelper.Adapter.Base.Callback;
+using CymChad.BaseRecyclerViewAdapterHelper.Adapter.Base;
+using CymChad.BaseRecyclerViewAdapterHelper.Adapter.Base.Callback;
 
 namespace BaseRecyclerViewAdapterHelper.Sample
 {

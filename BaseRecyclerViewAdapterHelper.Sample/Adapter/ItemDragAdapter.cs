@@ -1,5 +1,5 @@
 ﻿using System.Collections;
-using Chad.BaseRecyclerViewAdapterHelper.Adapter.Base;
+using CymChad.BaseRecyclerViewAdapterHelper.Adapter.Base;
 
 namespace BaseRecyclerViewAdapterHelper.Sample.Adapter
 {

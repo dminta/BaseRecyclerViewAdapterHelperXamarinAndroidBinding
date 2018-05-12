@@ -5,7 +5,7 @@ using Android.Widget;
 using BaseRecyclerViewAdapterHelper.Sample.Adapter;
 using BaseRecyclerViewAdapterHelper.Sample.Animation;
 using BaseRecyclerViewAdapterHelper.Sample.Entity;
-using Chad.BaseRecyclerViewAdapterHelper.Adapter.Base;
+using CymChad.BaseRecyclerViewAdapterHelper.Adapter.Base;
 using Com.Jaredrummler.Materialspinner;
 using Com.Kyleduo.Switchbutton;
 using System.Collections.Generic;

@@ -1,4 +1,4 @@
-﻿using Chad.BaseRecyclerViewAdapterHelper.Adapter.Base.LoadMore;
+﻿using CymChad.BaseRecyclerViewAdapterHelper.Adapter.Base.LoadMore;
 
 namespace BaseRecyclerViewAdapterHelper.Sample.LoadMore
 {

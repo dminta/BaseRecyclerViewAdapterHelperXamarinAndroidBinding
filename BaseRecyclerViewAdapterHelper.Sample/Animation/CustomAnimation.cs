@@ -1,6 +1,6 @@
 ﻿using Android.Animation;
 using Android.Views;
-using Chad.BaseRecyclerViewAdapterHelper.Adapter.Base.Animation;
+using CymChad.BaseRecyclerViewAdapterHelper.Adapter.Base.Animation;
 
 namespace BaseRecyclerViewAdapterHelper.Sample.Animation
 {
