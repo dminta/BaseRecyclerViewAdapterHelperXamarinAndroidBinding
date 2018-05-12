@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>CymChad.BaseRecyclerViewAdapterHelper</id>
+    <version>2.9.34.0</version>
+    <authors>Dominik Minta</authors>
+    <owners>Dominik Minta</owners>
+    <licenseUrl>https://github.com/dminta/BaseRecyclerViewAdapterHelperXamarinAndroidBinding/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/dminta/BaseRecyclerViewAdapterHelperXamarinAndroidBinding</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>BaseRecyclerViewAdapterHelper (BRVAH) library binding for Xamarin Android (https://github.com/CymChad/BaseRecyclerViewAdapterHelper)</description>
+    <releaseNotes>Initial release</releaseNotes>
+    <tags>xamarin android xamarin.android monodroid material</tags>
+    <dependencies>
+      <dependency id="Xamarin.Android.Support.v7.RecyclerView" version="26.1.0.1" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="..\BaseRecyclerViewAdapterHelper\bin\Release\CymChad.BaseRecyclerViewAdapterHelper.dll" target="lib\MonoAndroid80\CymChad.BaseRecyclerViewAdapterHelper.dll" />
+  </files>
+</package>
