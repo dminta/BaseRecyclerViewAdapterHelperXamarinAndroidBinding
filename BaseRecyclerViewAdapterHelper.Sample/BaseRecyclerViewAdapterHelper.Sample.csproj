@@ -117,6 +117,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Adapter\AnimationAdapter.cs" />
+    <Compile Include="Adapter\ExpandableItemAdapter.cs" />
     <Compile Include="Adapter\HeaderAndFooterAdapter.cs" />
     <Compile Include="Adapter\HomeAdapter.cs" />
     <Compile Include="Adapter\ItemClickAdapter.cs" />
@@ -133,10 +134,14 @@
     <Compile Include="EmptyViewUseActivity.cs" />
     <Compile Include="Entity\ClickEntity.cs" />
     <Compile Include="Entity\HomeItem.cs" />
+    <Compile Include="Entity\Level0Item.cs" />
+    <Compile Include="Entity\Level1Item.cs" />
     <Compile Include="Entity\MultipleItem.cs" />
     <Compile Include="Entity\MySection.cs" />
+    <Compile Include="Entity\Person.cs" />
     <Compile Include="Entity\Status.cs" />
     <Compile Include="Entity\Video.cs" />
+    <Compile Include="ExpandableUseActivity.cs" />
     <Compile Include="HeaderAndFooterUseActivity.cs" />
     <Compile Include="HomeActivity.cs" />
     <Compile Include="ItemClickActivity.cs" />
