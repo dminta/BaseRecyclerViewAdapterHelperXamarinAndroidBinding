@@ -119,8 +119,10 @@
     <Compile Include="Adapter\AnimationAdapter.cs" />
     <Compile Include="Adapter\HeaderAndFooterAdapter.cs" />
     <Compile Include="Adapter\HomeAdapter.cs" />
+    <Compile Include="Adapter\ItemClickAdapter.cs" />
     <Compile Include="Adapter\ItemDragAdapter.cs" />
     <Compile Include="Adapter\MultipleItemQuickAdapter.cs" />
+    <Compile Include="Adapter\NestAdapter.cs" />
     <Compile Include="Adapter\PullToRefreshAdapter.cs" />
     <Compile Include="Adapter\QuickAdapter.cs" />
     <Compile Include="Adapter\SectionAdapter.cs" />
@@ -129,6 +131,7 @@
     <Compile Include="Base\BaseActivity.cs" />
     <Compile Include="Data\DataServer.cs" />
     <Compile Include="EmptyViewUseActivity.cs" />
+    <Compile Include="Entity\ClickEntity.cs" />
     <Compile Include="Entity\HomeItem.cs" />
     <Compile Include="Entity\MultipleItem.cs" />
     <Compile Include="Entity\MySection.cs" />
@@ -136,6 +139,7 @@
     <Compile Include="Entity\Video.cs" />
     <Compile Include="HeaderAndFooterUseActivity.cs" />
     <Compile Include="HomeActivity.cs" />
+    <Compile Include="ItemClickActivity.cs" />
     <Compile Include="ItemDragAndSwipeUseActivity.cs" />
     <Compile Include="LoadMore\CustomLoadMoreView.cs" />
     <Compile Include="MultipleItemUseActivity.cs" />

@@ -1,15 +1,14 @@
-﻿using Android.Views;
-using Android.Widget;
-using Chad.BaseRecyclerViewAdapterHelper.Adapter.Base;
-using BaseRecyclerViewAdapterHelper.Sample.Entity;
-using BaseRecyclerViewAdapterHelper.Sample.Data;
+﻿using Android.Text;
 using Android.Text.Style;
-using Android.Text;
+using Android.Views;
+using Android.Widget;
+using BaseRecyclerViewAdapterHelper.Sample.Data;
 using BaseRecyclerViewAdapterHelper.Sample.Util;
+using Chad.BaseRecyclerViewAdapterHelper.Adapter.Base;
 
 namespace BaseRecyclerViewAdapterHelper.Sample.Adapter
 {
-    public class AnimationAdapter : BaseQuickAdapter
+    public class NestAdapter : BaseQuickAdapter
     {
         class ClickableSpanImpl : ClickableSpan
         {
@@ -27,24 +26,20 @@ namespace BaseRecyclerViewAdapterHelper.Sample.Adapter
 
         readonly ClickableSpan _clickableSpan = new ClickableSpanImpl();
 
-        public AnimationAdapter() : base(Resource.Layout.layout_animation, DataServer.GetSampleData(100)) { }
+        public NestAdapter() : base(Resource.Layout.layout_nest_item, DataServer.GetSampleData(20)) { }
 
         protected override void Convert(BaseViewHolder helper, Java.Lang.Object item)
         {
-            var status = item as Status;
-
-            helper.AddOnClickListener(Resource.Id.img).AddOnClickListener(Resource.Id.tweetName);
+            helper.AddOnClickListener(Resource.Id.tweetText);
 
             switch (helper.LayoutPosition % 3)
             {
                 case 0:
                     helper.SetImageResource(Resource.Id.img, Resource.Mipmap.animation_img1);
                     break;
-
                 case 1:
                     helper.SetImageResource(Resource.Id.img, Resource.Mipmap.animation_img2);
                     break;
-
                 case 2:
                     helper.SetImageResource(Resource.Id.img, Resource.Mipmap.animation_img3);
                     break;
@@ -56,9 +51,6 @@ namespace BaseRecyclerViewAdapterHelper.Sample.Adapter
             var textView = (TextView)helper.GetView(Resource.Id.tweetText);
             textView.TextFormatted = SpannableStringUtils.GetBuilder(msg).Append("landscapes and nedes").SetClickSpan(_clickableSpan).Create();
             textView.MovementMethod = ClickableMovementMethod.Instance;
-            textView.Focusable = false;
-            textView.Clickable = false;
-            textView.LongClickable = false;
         }
     }
 }

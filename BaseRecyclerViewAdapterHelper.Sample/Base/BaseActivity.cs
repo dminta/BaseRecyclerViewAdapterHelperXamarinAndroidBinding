@@ -1,4 +1,5 @@
-﻿using Android.OS;
+﻿using System;
+using Android.OS;
 using Android.Support.V7.App;
 using Android.Views;
 using Android.Widget;
@@ -7,8 +8,26 @@ using Toolbar = Android.Support.V7.Widget.Toolbar;
 
 namespace BaseRecyclerViewAdapterHelper.Sample.Base
 {
-    public class BaseActivity : AppCompatActivity, View.IOnClickListener
+    public class BaseActivity : AppCompatActivity
     {
+        class OnClickListenerImpl : Java.Lang.Object, View.IOnClickListener
+        {
+            readonly BaseActivity _activity;
+            
+            public OnClickListenerImpl(BaseActivity activity)
+            {
+                _activity = activity;
+            }
+
+            public void OnClick(View v)
+            {
+                if (v == _activity._back)
+                {
+                    _activity.Finish();
+                }
+            }
+        }
+
         TextView _title;
         ImageView _back;
 
@@ -27,7 +46,7 @@ namespace BaseRecyclerViewAdapterHelper.Sample.Base
             if (_back != null)
             {
                 _back.Visibility = ViewStates.Visible;
-                _back.SetOnClickListener(this);
+                _back.SetOnClickListener(new OnClickListenerImpl(this));
             }
             else
             {
@@ -91,14 +110,6 @@ namespace BaseRecyclerViewAdapterHelper.Sample.Base
             }
             _rootLayout.AddView(view, new ViewGroup.LayoutParams(ViewGroup.LayoutParams.MatchParent, ViewGroup.LayoutParams.MatchParent));
             InitToolbar();
-        }
-
-        public void OnClick(View v)
-        {
-            if (v == _back)
-            {
-                Finish();
-            }
         }
     }
 }
