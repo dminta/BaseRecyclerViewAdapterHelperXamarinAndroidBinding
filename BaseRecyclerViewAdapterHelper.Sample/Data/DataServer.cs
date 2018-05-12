@@ -3,7 +3,7 @@ using BaseRecyclerViewAdapterHelper.Sample.Entity;
 
 namespace BaseRecyclerViewAdapterHelper.Sample.Data
 {
-    public class DataServer // TODO
+    public class DataServer
     {
         const string HttpsAvatars1GitHubUserContentComLink = "https://avatars1.githubusercontent.com/u/7698209?v=3&s=460";
         const string CymChad = "CymChad";

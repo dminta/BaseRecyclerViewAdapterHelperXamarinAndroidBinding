@@ -17,7 +17,7 @@ namespace BaseRecyclerViewAdapterHelper.Sample
         RecyclerView _recyclerView;
         ItemClickAdapter _adapter;
         const int PageSize = 10;
-        const string Tag = "ItemClickActivity";
+        new const string Tag = "ItemClickActivity";
 
         protected override void OnCreate(Bundle savedInstanceState)
         {

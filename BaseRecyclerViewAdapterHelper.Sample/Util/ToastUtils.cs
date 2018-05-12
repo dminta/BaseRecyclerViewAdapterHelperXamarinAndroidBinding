@@ -1,30 +1,16 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
-using Android.App;
-using Android.Content;
-using Android.OS;
-using Android.Runtime;
-using Android.Views;
-using Android.Widget;
+﻿using Android.Widget;
 
 namespace BaseRecyclerViewAdapterHelper.Sample.Util
 {
-    public class ToastUtils // TODO
+    public class ToastUtils
     {
         static Toast _toast;
-        static bool _isJumpWhenMore;
 
         public static void ShowShortToast(string text) => ShowToast(text, ToastLength.Short);
 
         static void ShowToast(string text, ToastLength duration)
         {
-            if (_isJumpWhenMore)
-            {
-                CancelToast();
-            }
+            CancelToast();
             if (_toast == null)
             {
                 _toast = Toast.MakeText(Utils.Context, text, duration);

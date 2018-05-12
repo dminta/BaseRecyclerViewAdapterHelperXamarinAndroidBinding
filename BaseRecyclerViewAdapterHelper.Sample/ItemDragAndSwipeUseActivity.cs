@@ -18,7 +18,7 @@ namespace BaseRecyclerViewAdapterHelper.Sample
     [Activity]
     public class ItemDragAndSwipeUseActivity : BaseActivity
     {
-        static string Tag => Java.Lang.Class.FromType(typeof(ItemDragAndSwipeUseActivity)).SimpleName;
+        new static string Tag => Java.Lang.Class.FromType(typeof(ItemDragAndSwipeUseActivity)).SimpleName;
 
         RecyclerView _recyclerView;
         List<string> _data;

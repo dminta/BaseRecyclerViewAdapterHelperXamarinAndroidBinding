@@ -12,7 +12,7 @@ using System.Collections.Generic;
 
 namespace BaseRecyclerViewAdapterHelper.Sample
 {
-    [Activity(LaunchMode = LaunchMode.SingleTask)] // TODO
+    [Activity(LaunchMode = LaunchMode.SingleTask)]
     public class HomeActivity : AppCompatActivity
     {
         static readonly Type[] ActivityTypes = new Type[] { typeof(AnimationUseActivity), typeof(MultipleItemUseActivity), typeof(HeaderAndFooterUseActivity), typeof(PullToRefreshUseActivity), typeof(SectionUseActivity), typeof(EmptyViewUseActivity), typeof(ItemDragAndSwipeUseActivity), typeof(ItemClickActivity), typeof(ExpandableUseActivity) /*, typeof(DataBindingUseActivity), typeof(UpFetchUseActivity)*/};

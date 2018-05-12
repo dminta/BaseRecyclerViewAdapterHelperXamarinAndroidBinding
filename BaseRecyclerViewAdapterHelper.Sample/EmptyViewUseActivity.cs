@@ -72,7 +72,7 @@ namespace BaseRecyclerViewAdapterHelper.Sample
                         _quickAdapter.EmptyView = _notDataView;
                         _noData = false;
                     }
-                    else;
+                    else
                     {
                         _quickAdapter.SetNewData(DataServer.GetSampleData(10));
                     }

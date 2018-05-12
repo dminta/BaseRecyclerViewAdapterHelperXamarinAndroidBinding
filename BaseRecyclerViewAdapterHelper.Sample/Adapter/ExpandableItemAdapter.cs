@@ -39,7 +39,7 @@ namespace BaseRecyclerViewAdapterHelper.Sample.Adapter
             }
         }
 
-        string Tag => Java.Lang.Class.FromType(GetType()).SimpleName;
+        new string Tag => Java.Lang.Class.FromType(GetType()).SimpleName;
 
         public const int TypeLevel0 = 0;
         public const int TypeLevel1 = 1;
